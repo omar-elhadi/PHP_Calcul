@@ -8,7 +8,7 @@ $c = 3;
 $ajout = $a += $b;
 $multiplie = $b *= $c;
 $divise = $b /= $a;
-$soustrait = $c -= $b;
+$soustrait = $b -= $c;
 $reste = $b  %= $c;
 
 echo "Ajout: 		" . $ajout . "\n";
